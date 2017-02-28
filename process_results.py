@@ -16,7 +16,7 @@ def generate_markdown_results(df):
     to_write = ''
     for num_threads in ['gpu', '1']:
         for batch_size in [1, 64]:
-            device = 'GPU' if num_threads == 'gpu' else 'CPU'
+            device = 'GPU' if num_threads == 'gpu' else 'CPU(1 thread)'
             to_write += "\n\n {} batch_size {}\n\n".format(device, batch_size)
             to_write += header + '\n'
 

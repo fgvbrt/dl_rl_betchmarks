@@ -24,7 +24,7 @@ LSTM_openai|41.21|46.43|15.32|17.15
 LSTM_dqn|87.02|91.3|33.85|43.59
 
 
- CPU batch_size 1
+ CPU(1 thread) batch_size 1
 
 |Model|Theano predict, ms|Tensorflow predict, ms|Theano train, ms|Tensorflow train, ms|
 | :---|:---:|:---:|:---:|---:|
@@ -36,7 +36,7 @@ LSTM_openai|35.43|35.01|11.25|8.4
 LSTM_dqn|80.07|146.91|19.3|27.43
 
 
- CPU batch_size 64
+ CPU(1 thread) batch_size 64
 
 |Model|Theano predict, ms|Tensorflow predict, ms|Theano train, ms|Tensorflow train, ms|
 | :---|:---:|:---:|:---:|---:|
