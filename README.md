@@ -33,5 +33,6 @@ Use flag --help to see options for experiment.
 
 ## Results
 
-Current results are in file results.txt and were obtained with packages listed in requirements.txt.
-GPU is GeForce GTX 980. CPU is Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz.
+Raw results are in file [results.txt](results.txt). Preprocessed result can be found [here](results.md).
+All results were obtained with GeForce GTX 980 and Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz.
+
