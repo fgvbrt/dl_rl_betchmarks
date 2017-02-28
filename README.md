@@ -8,7 +8,7 @@ Main idea is test arcitectures suitable for deep RL purposes i.e. not so deep CN
   * forward pass with batch size one for communicating with environment
   * forward + backward pass with various batch sized (for training)
 
-All networks are tested on GPU as well as CPU (1 thread and 8 threads).
+Test script runs all networks on GPU as well as CPU (1 thread and all available threads).
 
 ## Architectures to compare:
 
@@ -23,10 +23,10 @@ All networks are tested on GPU as well as CPU (1 thread and 8 threads).
 
 To run benchmarks just use script:
 
-    $./run_all.sh
+    $ ./run_all.sh
 
 Optionally a separate experiment can be run with command
 
-    $python run_benchmark.py
+    $ python run_benchmark.py
     
 Use flag --help to see options for experiment.
