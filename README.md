@@ -30,3 +30,8 @@ Optionally a separate experiment can be run with command
     $ python run_benchmark.py
     
 Use flag --help to see options for experiment.
+
+## Results
+
+Current results are in file results.txt and were obtained with packages listed in requirements.txt.
+GPU is GeForce GTX 980. CPU is Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz.
